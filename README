@@ -1,1 +1,13 @@
-Experimentos con Python y Django en mejorando.la
+Experimentos con Python y Django en mejorando.la/web
+
+Definicion de proyecto:
+
+- Generar una interfaz donde vamos a capturar enlaces, noticias, tutoriales, material tech interesante relacionado con mejorando.la. Se determinará además si es un post, foro, tutorial, video, imagen, etc.
+
+- Procesar el contenido y obtener tags automáticos en base a su información. Se generará un pull de 50 tags iniciales basados en tecnologías predominantes en las comunidades de @maestros y @cristalab
+
+- Cada acción compartida podrá tener votos positivos (que se contabilizarán por 1 vez por cada usuario que siga un enlace), así como votos negativos (una opción de -1)
+
+- El ranking de estos enlaces se hará de forma universal y a nivel tag utilizando el algoritmo de reddit.
+
+- Se conectará la interface con un agregador de twitter, facebook y google+ que rastree acciones y referencias enviadas con hashtags (#mejorandola), así como enviados a @cvander, @freddier, @cristalab, @maestros, @mejorandolaweb (o su equivalente en otras redes).
